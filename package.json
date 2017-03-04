@@ -1,0 +1,29 @@
+{
+  "name": "ChatBot",
+  "version": "1.0.0",
+  "description": "Chat with bot",
+  "author": "HuynhDN <ngochuynh1991@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "babel-cli": "latest",
+    "babel-eslint": "latest",
+    "babel-plugin-transform-object-assign": "latest",
+    "babel-preset-env": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "latest"
+  },
+  "dependencies": {
+    "apiai": "^4.0.0",
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "express-handlebars": "^3.0.0"
+  }
+}

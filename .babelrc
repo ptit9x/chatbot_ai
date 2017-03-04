@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "env",
+      { "targets": { "node": 4.3 },
+        "exclude": [ "transform-regenerator", "transform-async-to-generator" ],
+        "useBuiltIns": true
+      }
+    ]
+  ],
+  "plugins": ["transform-object-assign"]
+}
