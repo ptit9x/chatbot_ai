@@ -75,7 +75,7 @@ function sendText() {
   $('ul.chat').append(html);
 
   $.ajax({
-    url: "http://localhost:3000/",
+    url: "{{domain}}",
     type: "POST",
     data: JSON.stringify({
       txtInput: $("#btn-input").val()

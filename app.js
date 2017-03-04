@@ -20,7 +20,10 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 const BOT_CHAT = require('./src/botController');
 // Router each link
 app.get('/', (req, res) => {
-  res.render('home');
+  const data = {
+    domain: process.env.DOMAIN,
+  };
+  res.render('home', data);
 });
 
 app.post('/', (req, res) => {
